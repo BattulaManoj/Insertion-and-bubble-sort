@@ -1,0 +1,32 @@
+=== MANUAL PERFORMANCE TEST RESULTS ===
+Test conducted: Fri Sep 26 10:30:54 AM CDT 2025
+Test method: Manual execution with system monitoring
+
+SORTING ALGORITHM RESULTS:
+--------------------------
+BUBBLE SORT:
+- Time: 542 microseconds
+- Swaps: 8999
+
+INSERTION SORT:  
+- Time: 614 microseconds
+- Swaps: 8999
+
+PERFORMANCE COMPARISON:
+----------------------
+Bubble Sort was faster by 72 microseconds
+Insertion Sort took 1.13x longer
+
+SYSTEM METRICS COLLECTED:
+-------------------------
+- CPU and memory usage during each test
+- Disk I/O statistics
+- Files: bubble_monitor.log, insertion_monitor.log
+
+FILES GENERATED:
+----------------
+- Bubble sort metrics: bubble_monitor.log
+- Insertion sort metrics: insertion_monitor.log
+- Disk I/O stats: bubble_disk.log, insertion_disk.log
+- This summary: FINAL_REPORT.txt
+
